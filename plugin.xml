@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" id="slingshot_sponsored_video_player" version="1.0.0">
+    <name>SlingshotSponsoredVideoPlayer</name>
+    <description>Video Player that uses sponsored networks</description>
+    <license>Proprietary</license>
+    <keywords>videoplayer,sponsored,datami</keywords>
+
+    <js-module src="www/ss_video.js" name="SSVideo">
+        <clobbers target="SSVideo" />
+    </js-module>
+
+    <platform name="ios">
+        <config-file target="config.xml" parent="/*">
+            <feature name="SSVideo">
+                <param name="ios-package" value="SSVideo"/>
+                <param name="onload" value="true" />
+            </feature>
+        </config-file>
+        <header-file src="src/ios/SSVideo.h" />
+        <source-file src="src/ios/SSVideo.m" />
+        <framework src="AVKit.framework" /> 
+        <dependency id="datami-cordova-plugin" url="https://bitbucket.org/datami/cordova-smisdk-plugin.git#cordova8" />
+    </platform>
+</plugin>

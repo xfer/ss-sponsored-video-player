@@ -1,0 +1,12 @@
+{
+    "name": "br.com.slingshotdigital.datami_video_player",
+    "displayName": "VideoPlayerForDatami",
+    "version": "1.0.0",
+    "description": "Play a video using sponsored internet",
+    "main": "ss_video.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Marcelo Alves",
+    "license": "Proprietary or AGPLv3+"
+}
