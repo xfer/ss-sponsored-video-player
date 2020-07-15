@@ -43,6 +43,7 @@
     AppDelegate *app = UIApplication.sharedApplication.delegate;
     SmiResult *result = [SmiSdk getSDAuth:app.apiKey url:url userId:@""];
     if (result.url) {
+        NSLog(@"SMIResult = %@", result);
         return [NSURL URLWithString:result.url];
     } else {
         return [NSURL URLWithString:url];
