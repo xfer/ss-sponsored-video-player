@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" id="slingshot_sponsored_video_player" version="1.0.0">
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" id="ss-sponsored-video-player" version="1.0.0">
     <name>SlingshotSponsoredVideoPlayer</name>
     <description>Video Player that uses sponsored networks</description>
     <license>Proprietary</license>
