@@ -19,6 +19,6 @@
         <header-file src="src/ios/SSVideo.h" />
         <source-file src="src/ios/SSVideo.m" />
         <framework src="AVKit.framework" /> 
-        <dependency id="datami-cordova-plugin" url="https://bitbucket.org/datami/cordova-smisdk-plugin.git#cordova8" />
+        <!-- <dependency id="datami-cordova-plugin" url="https://bitbucket.org/datami/cordova-smisdk-plugin.git#cordova8" /> -->
     </platform>
 </plugin>
