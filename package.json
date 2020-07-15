@@ -1,6 +1,6 @@
 {
-    "name": "br.com.slingshotdigital.datami_video_player",
-    "displayName": "VideoPlayerForDatami",
+    "name": "ss-sponsored-video-player",
+    "displayName": "Slingshot sponsored video plauer",
     "version": "1.0.0",
     "description": "Play a video using sponsored internet",
     "main": "ss_video.js",
